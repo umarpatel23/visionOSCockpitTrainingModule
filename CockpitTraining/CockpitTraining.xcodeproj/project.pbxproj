@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		026A4BD32C7A538C00B198C0 /* CockpitMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026A4BD22C7A538C00B198C0 /* CockpitMenuView.swift */; };
+		026A4BD52C7BA46400B198C0 /* PreAndPostFlightChecklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026A4BD42C7BA46400B198C0 /* PreAndPostFlightChecklist.swift */; };
+		026A4BD72C7C723400B198C0 /* VoiceActivatedSystemCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026A4BD62C7C723400B198C0 /* VoiceActivatedSystemCheckView.swift */; };
+		026A4BD92C7D305D00B198C0 /* IdentificationAndSequenceTrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026A4BD82C7D305D00B198C0 /* IdentificationAndSequenceTrainingView.swift */; };
+		026EFD172C7587D50081D9CD /* CockpitFeatureAdditionalInfoViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026EFD162C7587D50081D9CD /* CockpitFeatureAdditionalInfoViews.swift */; };
+		026EFD192C75929B0081D9CD /* CockpitInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026EFD182C75929B0081D9CD /* CockpitInformation.swift */; };
+		02F664BC2C72BB74008AFEE3 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 02F664BB2C72BB74008AFEE3 /* RealityKitContent */; };
+		02F664BE2C72BB74008AFEE3 /* CockpitTrainingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F664BD2C72BB74008AFEE3 /* CockpitTrainingApp.swift */; };
+		02F664C02C72BB74008AFEE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F664BF2C72BB74008AFEE3 /* ContentView.swift */; };
+		02F664C22C72BB74008AFEE3 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F664C12C72BB74008AFEE3 /* ImmersiveView.swift */; };
+		02F664C42C72BB75008AFEE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F664C32C72BB75008AFEE3 /* Assets.xcassets */; };
+		02F664C72C72BB75008AFEE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F664C62C72BB75008AFEE3 /* Preview Assets.xcassets */; };
+		02F664D22C72BB75008AFEE3 /* CockpitTrainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F664D12C72BB75008AFEE3 /* CockpitTrainingTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02F664CE2C72BB75008AFEE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02F664AE2C72BB74008AFEE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02F664B52C72BB74008AFEE3;
+			remoteInfo = CockpitTraining;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026A4BD22C7A538C00B198C0 /* CockpitMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CockpitMenuView.swift; sourceTree = "<group>"; };
+		026A4BD42C7BA46400B198C0 /* PreAndPostFlightChecklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreAndPostFlightChecklist.swift; sourceTree = "<group>"; };
+		026A4BD62C7C723400B198C0 /* VoiceActivatedSystemCheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceActivatedSystemCheckView.swift; sourceTree = "<group>"; };
+		026A4BD82C7D305D00B198C0 /* IdentificationAndSequenceTrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentificationAndSequenceTrainingView.swift; sourceTree = "<group>"; };
+		026EFD162C7587D50081D9CD /* CockpitFeatureAdditionalInfoViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CockpitFeatureAdditionalInfoViews.swift; sourceTree = "<group>"; };
+		026EFD182C75929B0081D9CD /* CockpitInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CockpitInformation.swift; sourceTree = "<group>"; };
+		02F664B62C72BB74008AFEE3 /* CockpitTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CockpitTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F664BA2C72BB74008AFEE3 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		02F664BD2C72BB74008AFEE3 /* CockpitTrainingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CockpitTrainingApp.swift; sourceTree = "<group>"; };
+		02F664BF2C72BB74008AFEE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02F664C12C72BB74008AFEE3 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		02F664C32C72BB75008AFEE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02F664C62C72BB75008AFEE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02F664C82C72BB75008AFEE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F664CD2C72BB75008AFEE3 /* CockpitTrainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CockpitTrainingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F664D12C72BB75008AFEE3 /* CockpitTrainingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CockpitTrainingTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02F664B32C72BB74008AFEE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F664BC2C72BB74008AFEE3 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F664CA2C72BB75008AFEE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02F664AD2C72BB74008AFEE3 = {
+			isa = PBXGroup;
+			children = (
+				02F664B82C72BB74008AFEE3 /* CockpitTraining */,
+				02F664B92C72BB74008AFEE3 /* Packages */,
+				02F664D02C72BB75008AFEE3 /* CockpitTrainingTests */,
+				02F664B72C72BB74008AFEE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02F664B72C72BB74008AFEE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02F664B62C72BB74008AFEE3 /* CockpitTraining.app */,
+				02F664CD2C72BB75008AFEE3 /* CockpitTrainingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02F664B82C72BB74008AFEE3 /* CockpitTraining */ = {
+			isa = PBXGroup;
+			children = (
+				02F664BD2C72BB74008AFEE3 /* CockpitTrainingApp.swift */,
+				02F664BF2C72BB74008AFEE3 /* ContentView.swift */,
+				02F664C12C72BB74008AFEE3 /* ImmersiveView.swift */,
+				026A4BD22C7A538C00B198C0 /* CockpitMenuView.swift */,
+				026EFD162C7587D50081D9CD /* CockpitFeatureAdditionalInfoViews.swift */,
+				026A4BD42C7BA46400B198C0 /* PreAndPostFlightChecklist.swift */,
+				026A4BD62C7C723400B198C0 /* VoiceActivatedSystemCheckView.swift */,
+				026A4BD82C7D305D00B198C0 /* IdentificationAndSequenceTrainingView.swift */,
+				026EFD182C75929B0081D9CD /* CockpitInformation.swift */,
+				02F664C32C72BB75008AFEE3 /* Assets.xcassets */,
+				02F664C82C72BB75008AFEE3 /* Info.plist */,
+				02F664C52C72BB75008AFEE3 /* Preview Content */,
+			);
+			path = CockpitTraining;
+			sourceTree = "<group>";
+		};
+		02F664B92C72BB74008AFEE3 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				02F664BA2C72BB74008AFEE3 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		02F664C52C72BB75008AFEE3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02F664C62C72BB75008AFEE3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02F664D02C72BB75008AFEE3 /* CockpitTrainingTests */ = {
+			isa = PBXGroup;
+			children = (
+				02F664D12C72BB75008AFEE3 /* CockpitTrainingTests.swift */,
+			);
+			path = CockpitTrainingTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02F664B52C72BB74008AFEE3 /* CockpitTraining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F664D52C72BB75008AFEE3 /* Build configuration list for PBXNativeTarget "CockpitTraining" */;
+			buildPhases = (
+				02F664B22C72BB74008AFEE3 /* Sources */,
+				02F664B32C72BB74008AFEE3 /* Frameworks */,
+				02F664B42C72BB74008AFEE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CockpitTraining;
+			packageProductDependencies = (
+				02F664BB2C72BB74008AFEE3 /* RealityKitContent */,
+			);
+			productName = CockpitTraining;
+			productReference = 02F664B62C72BB74008AFEE3 /* CockpitTraining.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02F664CC2C72BB75008AFEE3 /* CockpitTrainingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F664D82C72BB75008AFEE3 /* Build configuration list for PBXNativeTarget "CockpitTrainingTests" */;
+			buildPhases = (
+				02F664C92C72BB75008AFEE3 /* Sources */,
+				02F664CA2C72BB75008AFEE3 /* Frameworks */,
+				02F664CB2C72BB75008AFEE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02F664CF2C72BB75008AFEE3 /* PBXTargetDependency */,
+			);
+			name = CockpitTrainingTests;
+			productName = CockpitTrainingTests;
+			productReference = 02F664CD2C72BB75008AFEE3 /* CockpitTrainingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02F664AE2C72BB74008AFEE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					02F664B52C72BB74008AFEE3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					02F664CC2C72BB75008AFEE3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 02F664B52C72BB74008AFEE3;
+					};
+				};
+			};
+			buildConfigurationList = 02F664B12C72BB74008AFEE3 /* Build configuration list for PBXProject "CockpitTraining" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02F664AD2C72BB74008AFEE3;
+			productRefGroup = 02F664B72C72BB74008AFEE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02F664B52C72BB74008AFEE3 /* CockpitTraining */,
+				02F664CC2C72BB75008AFEE3 /* CockpitTrainingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02F664B42C72BB74008AFEE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F664C72C72BB75008AFEE3 /* Preview Assets.xcassets in Resources */,
+				02F664C42C72BB75008AFEE3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F664CB2C72BB75008AFEE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02F664B22C72BB74008AFEE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F664C02C72BB74008AFEE3 /* ContentView.swift in Sources */,
+				026A4BD32C7A538C00B198C0 /* CockpitMenuView.swift in Sources */,
+				02F664BE2C72BB74008AFEE3 /* CockpitTrainingApp.swift in Sources */,
+				026EFD172C7587D50081D9CD /* CockpitFeatureAdditionalInfoViews.swift in Sources */,
+				026A4BD52C7BA46400B198C0 /* PreAndPostFlightChecklist.swift in Sources */,
+				026A4BD92C7D305D00B198C0 /* IdentificationAndSequenceTrainingView.swift in Sources */,
+				026EFD192C75929B0081D9CD /* CockpitInformation.swift in Sources */,
+				02F664C22C72BB74008AFEE3 /* ImmersiveView.swift in Sources */,
+				026A4BD72C7C723400B198C0 /* VoiceActivatedSystemCheckView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F664C92C72BB75008AFEE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F664D22C72BB75008AFEE3 /* CockpitTrainingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02F664CF2C72BB75008AFEE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02F664B52C72BB74008AFEE3 /* CockpitTraining */;
+			targetProxy = 02F664CE2C72BB75008AFEE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02F664D32C72BB75008AFEE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		02F664D42C72BB75008AFEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+		02F664D62C72BB75008AFEE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CockpitTraining/Preview Content\"";
+				DEVELOPMENT_TEAM = WRG98F896R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drmc.umarpatel.CockpitTraining;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		02F664D72C72BB75008AFEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CockpitTraining/Preview Content\"";
+				DEVELOPMENT_TEAM = WRG98F896R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drmc.umarpatel.CockpitTraining;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		02F664D92C72BB75008AFEE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WRG98F896R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drmc.umarpatel.CockpitTrainingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CockpitTraining.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CockpitTraining";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		02F664DA2C72BB75008AFEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WRG98F896R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drmc.umarpatel.CockpitTrainingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CockpitTraining.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CockpitTraining";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02F664B12C72BB74008AFEE3 /* Build configuration list for PBXProject "CockpitTraining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F664D32C72BB75008AFEE3 /* Debug */,
+				02F664D42C72BB75008AFEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02F664D52C72BB75008AFEE3 /* Build configuration list for PBXNativeTarget "CockpitTraining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F664D62C72BB75008AFEE3 /* Debug */,
+				02F664D72C72BB75008AFEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02F664D82C72BB75008AFEE3 /* Build configuration list for PBXNativeTarget "CockpitTrainingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F664D92C72BB75008AFEE3 /* Debug */,
+				02F664DA2C72BB75008AFEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		02F664BB2C72BB74008AFEE3 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 02F664AE2C72BB74008AFEE3 /* Project object */;
+}

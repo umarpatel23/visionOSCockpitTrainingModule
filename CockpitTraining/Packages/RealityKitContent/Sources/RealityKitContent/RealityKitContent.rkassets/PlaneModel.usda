@@ -1,0 +1,27 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 1.0 (409.100.15)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def "plane_model" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (4.214684e-8, -0.78539795, -0.3490658)
+        }
+        prepend references = @3D Assets/plane_model.usdz@
+    )
+    {
+        quatf xformOp:orient = (0.90984374, -0.06645224, -0.37686953, -0.16042998)
+        float3 xformOp:scale = (0.4, 0.4, 0.4)
+        float3 xformOp:translate = (0, -1.4901161e-8, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+}
+
